@@ -183,22 +183,7 @@ function App() {
         onLogout={() => setIsAdminAuthenticated(false)}
       />
 
-      {/* {/* Demo Mode Controls */}
-      {database.settings.demo_mode && (
-        <div className="fixed bottom-4 left-4 z-40">
-          <div className="bg-yellow-100 dark:bg-yellow-900 border border-yellow-300 dark:border-yellow-700 rounded-lg p-3 shadow-lg">
-            <div className="flex items-center gap-2 text-yellow-800 dark:text-yellow-200 text-sm">
-              <span>🎯 Demo Mode Active</span>
-              <button
-                onClick={handleToggleDemoMode}
-                className="ml-2 px-2 py-1 bg-yellow-500 hover:bg-yellow-600 text-white rounded text-xs"
-              >
-                Disable
-              </button>
-            </div>
-          </div> 
-        </div>
-      )}
+     
 
       {/* Database Controls */}
       <div className="fixed bottom-4 right-4 z-40 flex flex-col gap-2">
@@ -227,7 +212,7 @@ function App() {
         )}
       </div>
     </div>
-  ); */}
+  );
 }
 
-export default App; 
+export default App;
