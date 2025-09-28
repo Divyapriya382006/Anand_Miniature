@@ -183,7 +183,7 @@ function App() {
         onLogout={() => setIsAdminAuthenticated(false)}
       />
 
-      {/* Demo Mode Controls */}
+      {/* {/* Demo Mode Controls */}
       {database.settings.demo_mode && (
         <div className="fixed bottom-4 left-4 z-40">
           <div className="bg-yellow-100 dark:bg-yellow-900 border border-yellow-300 dark:border-yellow-700 rounded-lg p-3 shadow-lg">
@@ -227,7 +227,7 @@ function App() {
         )}
       </div>
     </div>
-  );
+  ); */}
 }
 
-export default App;
+export default App; 
