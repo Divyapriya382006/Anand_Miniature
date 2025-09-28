@@ -185,33 +185,9 @@ function App() {
 
      
 
-      {/* Database Controls */}
-      <div className="fixed bottom-4 right-4 z-40 flex flex-col gap-2">
-        <button
-          onClick={handleExportDatabase}
-          className="bg-blue-500 hover:bg-blue-600 text-white p-3 rounded-full shadow-lg transition-colors"
-          title="Export Database"
-        >
-          💾
-        </button>
-        <button
-          onClick={handleImportDatabase}
-          className="bg-green-500 hover:bg-green-600 text-white p-3 rounded-full shadow-lg transition-colors"
-          title="Import Database"
-        >
-          
-        </button>
-        {!database.settings.demo_mode && (
-          <button
-            onClick={handleToggleDemoMode}
-            className="bg-purple-500 hover:bg-purple-600 text-white p-3 rounded-full shadow-lg transition-colors"
-            title="Enable Demo Mode"
-          >
-            🎯
-          </button>
-        )}
+    
       </div>
-    </div>
+    
   );
 }
 
